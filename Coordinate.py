@@ -1,8 +1,6 @@
 import numpy as np
 from Bio.Blast import NCBIWWW
 
-
-
 for line in open('TemplateBest.pdb'):
     list = line.split()
     id = list[0]
