@@ -5,7 +5,7 @@ import math
 
 def Optimization():
 
-    A = Atom_List('T0900_Target.pdb')
+    A = Atom_List('../Data/T0900_Target.pdb')
     TemplateMatrix_1 = []
     TemplateMatrix_2 = []
     TargetMatrix = []
