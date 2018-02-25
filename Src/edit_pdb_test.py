@@ -28,6 +28,7 @@ with open('../Data/1a40.pdb', 'r') as targetFile, open('../Data/1ixi.pdb', 'r') 
         if len(out_data) > 3 and out_data[0] == 'ATOM' and out_data[2] == 'CA':
             template_data.append(out_data)
     current_length = 0
+    
     for line1, line2 in zip(target_data, template_data):
         if current_length < total_lenght:
             if line1[3] == line2[3]:
@@ -35,4 +36,3 @@ with open('../Data/1a40.pdb', 'r') as targetFile, open('../Data/1ixi.pdb', 'r') 
             else:
                 outFile.write('Data dosen\'t match\n')
         current_length += 1
-#print(''.join(same))
