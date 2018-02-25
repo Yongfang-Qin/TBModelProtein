@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e497423-4345-4902-9c1b-50e0804387b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TBModelProtein.iml" afterPath="$PROJECT_DIR$/.idea/TBModelProtein.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Data/5aot.fasta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Data/5aot.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Data/5fu4.fasta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Data/5fu4.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Data/T0900_Target.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Data/T0900_TargetSequence.fasta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Data/T0900_TargetStructure5aos.pdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Src/InitStructure.py" afterPath="$PROJECT_DIR$/Src/InitStructure.py" />
+      <change beforePath="$PROJECT_DIR$/Src/BlastAlignment.py" afterPath="$PROJECT_DIR$/Src/BlastAlignment.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TBModelProtein$BlastAlignment.coverage" NAME="BlastAlignment Coverage Results" MODIFIED="1519585253323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Src" />
+    <SUITE FILE_PATH="coverage/TBModelProtein$BlastAlignment.coverage" NAME="BlastAlignment Coverage Results" MODIFIED="1519588328426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Src" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -31,6 +22,28 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlastAlignment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/BlastAlignment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="results_init.pdb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/T0860/results_init.pdb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1363">
+              <caret line="343" column="45" lean-forward="true" selection-start-line="343" selection-start-column="45" selection-end-line="343" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -48,68 +61,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlastAlignment.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Src/BlastAlignment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Optimization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Src/Optimization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results.pdb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/T0860/results.pdb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5fld.pdb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/T0860/5fld.pdb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="513" column="62" lean-forward="false" selection-start-line="513" selection-start-column="62" selection-end-line="513" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T0860_target.pdb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/T0860/T0860_target.pdb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-332">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_pdb_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Src/edit_pdb_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -122,6 +73,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>zip</find>
+      <find>template</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,10 +90,11 @@
         <option value="$PROJECT_DIR$/Src/edit_pdb_test.py" />
         <option value="$PROJECT_DIR$/Data/results.pdb" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Data/T0860/T0860.fasta" />
         <option value="$PROJECT_DIR$/Data/T0860/T0860_target.pdb" />
         <option value="$PROJECT_DIR$/Src/InitStructure.py" />
         <option value="$PROJECT_DIR$/Src/BlastAlignment.py" />
+        <option value="$PROJECT_DIR$/Data/T0860/results_init.pdb" />
+        <option value="$PROJECT_DIR$/Data/T0860/T0860.fasta" />
       </list>
     </option>
   </component>
@@ -151,7 +104,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="24" />
     <option name="y" value="23" />
     <option name="width" value="1255" />
@@ -413,7 +366,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="23" width="1255" height="727" extended-state="0" />
+    <frame x="24" y="23" width="1255" height="727" extended-state="1" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -588,14 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/T0860/T0860.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/T0860/95SCU2B4015-Alignment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1136">
@@ -620,18 +565,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/T0860/5fld.pdb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="513" column="62" lean-forward="false" selection-start-line="513" selection-start-column="62" selection-end-line="513" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/updated_file.pdb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/T0860/5fld.pdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="513" column="62" lean-forward="false" selection-start-line="513" selection-start-column="62" selection-end-line="513" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -644,10 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/T0860/T0860_target.pdb">
+    <entry file="file://$PROJECT_DIR$/Src/InitStructure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-332">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="30">
+          <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -662,37 +615,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Src/InitStructure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/T0860/results.pdb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-13870">
+          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Src/Optimization.py">
+    <entry file="file://$PROJECT_DIR$/Data/T0860/T0860_target.pdb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="4222">
+          <caret line="308" column="66" lean-forward="true" selection-start-line="308" selection-start-column="66" selection-end-line="308" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Src/BlastAlignment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="-225">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/T0860/T0860.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/T0860/results_init.pdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1363">
+          <caret line="343" column="45" lean-forward="true" selection-start-line="343" selection-start-column="45" selection-end-line="343" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
