@@ -18,9 +18,9 @@ for blast_record in blast_records:
             print('sequence:', alignment.title)
             print('length:', alignment.length)
             print('e value:', hsp.expect)
-            print(hsp.query[0:75])
-            print(hsp.match[0:75])
-            print(hsp.sbjct[0:75])
+            print(hsp.query[0:137])
+            print(hsp.match[0:137])
+            print(hsp.sbjct[0:137])
 
             identities=hsp.identities
             similarity=(100 * hsp.identities / seq_len)
@@ -30,8 +30,6 @@ for blast_record in blast_records:
             templatestart = hsp.sbjct_start
             match=hsp.match
             template=hsp.sbjct[0:137]
-            print(template)
-            print(len(template))
             templatestart=hsp.sbjct_start
 
             if similarity!=100 and similarity > 70:
