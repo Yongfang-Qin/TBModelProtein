@@ -1,13 +1,12 @@
 import numpy as np
 from scipy import stats
-from CaDistanceMatrix import PointDistance
+from CaDistanceMatrix import PointDistance,CaDistanceMatrix
 import math
 
 def Optimization():
 
-    A = Atom_List('../Data/T0900_Target.pdb')
-    TemplateMatrix_1 = []
-    TemplateMatrix_2 = []
+    A = Atom_List('../Data/T0860/result_init.pdb')
+    TemplateMatrix_1 = CaDistanceMatrix('../Data/T0860/5fld.pdb',)
     TargetMatrix = []
     weights = []
     sigma = 0.1
@@ -39,7 +38,6 @@ def Optimization():
             A[i][0] = x_new
             A[i][1] = y_new
             A[i][2] = z_new
-                
 
 
 def Probability(dis, dis_template):
