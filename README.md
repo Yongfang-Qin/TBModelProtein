@@ -9,3 +9,6 @@ Template based modeling
 * Visualize
 * Do Report
 * Finish presentation
+
+
+1a40.pdb is the Target 
