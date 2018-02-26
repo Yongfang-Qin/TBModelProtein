@@ -24,7 +24,6 @@ for blast_record in blast_records:
 
             identities=hsp.identities
             similarity=(100 * hsp.identities / seq_len)
-            print(similarity)
             target=hsp.query
             targetstart=hsp.query_start
             templatestart = hsp.sbjct_start
