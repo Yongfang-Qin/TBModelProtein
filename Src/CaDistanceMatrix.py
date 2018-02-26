@@ -16,12 +16,16 @@ def CaDistanceMatrix(FileName, GapPosition):
                 residue = coordinateList[3]
                 type_of_chain = coordinateList[4]
                 atom_count = int(coordinateList[5])
-                A.append([float(coordinateList[6]), coordinateList(list[7]), coordinateList(list[8])])
+                A.append([float(coordinateList[6]), float(coordinateList[7]), float(coordinateList[8])])
 
     sizePoints = len(A)
-    distMatrix = np.zeros((sizePoints, sizePoints))
+    #print len(A)
+    distMatrix = np.zeros((147, 147))
     for i, eachFir in enumerate(A):
         for j, eachSec in enumerate(A):
+
+        #    print(i)
+         #   print(j)
             if i in GapPosition:
                 distMatrix[i][j] = 0
             if j in GapPosition:
@@ -33,14 +37,16 @@ def CaDistanceMatrix(FileName, GapPosition):
 
 
 def PointDistance(pointFir, pointSec):
+    new_array = [(pointFir[0]-pointSec[0])**2,(pointFir[1]-pointSec[1])**2, (pointFir[2]-pointSec[2])**2]
 
-    dist = np.linalg.norm(pointFir - pointSec)
+    dist = math.sqrt(new_array[0]+new_array[1]+new_array[2])
+    #dist = np.linalg.norm(new_array)
 
-    pointFir = np.array(pointFir)
-    pointSec = np.array(pointSec)
-    diff = abs(pointFir - pointSec)
-    dist_a = math.sqrt(sum(diff * diff.T))
+    #pointFir = np.array(pointFir)
+    #pointSec = np.array(pointSec)
+    #diff = abs(pointFir - pointSec)
+    #dist_a = math.sqrt(sum(diff * diff.T))
 
-    a = diff(dist,dist_a)
+    #a = diff(dist,dist_a)
 
     return dist
